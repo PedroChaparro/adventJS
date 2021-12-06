@@ -9,7 +9,7 @@ function listGifts(letter) {
         //Por cada palabra se eliminan sus espacios en blanco y si comienza por _ se elimina
         let toy = word.trim();
         
-        if (toy[0] == '_' || toy === '') { 
+        if (toy[0] == '_') { 
             words.splice(words.indexOf(toy), 1);
         }
     });
