@@ -13,6 +13,6 @@ function shouldBuyFidelity(times) {
 
     return fidelity_card_price < normal_price;
 }
- 
+
 console.log(shouldBuyFidelity(1)); 
 console.log(shouldBuyFidelity(100)); 
