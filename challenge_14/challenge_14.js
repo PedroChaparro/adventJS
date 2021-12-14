@@ -10,7 +10,6 @@ function missingReindeer(ids) {
 
     //Si existe alguna posición con 0, retorna esa posición, de lo contrario, retorna el largo del array
     return ids_count.indexOf(0) != -1 ? ids_count.indexOf(0) : ids.length;
-    return output;
 
     /* //Better solution
     const max = Math.max(...ids); //Máximo número en el arreglo
